@@ -1,0 +1,45 @@
+{
+  // Place your snippets for dart here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  "Stateless widget with material.dart import": {
+    "prefix": "less",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class $1 extends StatelessWidget {",
+      "",
+      "\t@override",
+      "\tWidget build(BuildContext context) {",
+      "\t\treturn Container(",
+      "",
+      "\t\t);",
+      "\t}",
+      " }"
+    ],
+    "description": "auto import"
+  },
+  "Statefull widget with material.dart import": {
+    "prefix": "full",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class $1 extends StatefulWidget {",
+      "",
+      "\t@override",
+      "\tState<$1> createState() => $1_State();",
+      "}",
+      "",
+      "class $1_State extends State<$1> {",
+      "\t@override",
+      "\tWidget build(BuildContext context) {",
+      "\t\treturn Container(",
+      "",
+      "\t);",
+      "}",
+      "}"
+    ],
+    "description": "auto import"
+  }
+}
