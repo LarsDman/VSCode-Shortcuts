@@ -41,5 +41,10 @@
       "}"
     ],
     "description": "auto import"
+  },
+  "Try-Catch-Block with error": {
+    "prefix": "try",
+    "body": ["try{", "$1", "}catch(error){", "", "}"],
+    "description": "auto import"
   }
 }
