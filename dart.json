@@ -28,7 +28,7 @@
       "class $1 extends StatefulWidget {",
       "",
       "\t@override",
-      "\tState<$1> createState() => $1_State();",
+      "\tState<$1> createState() => _$1_State();",
       "}",
       "",
       "class _$1_State extends State<$1> {",
