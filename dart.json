@@ -31,7 +31,7 @@
       "\tState<$1> createState() => $1_State();",
       "}",
       "",
-      "class $1_State extends State<$1> {",
+      "class _$1_State extends State<$1> {",
       "\t@override",
       "\tWidget build(BuildContext context) {",
       "\t\treturn Container(",
